@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -400,7 +401,7 @@ namespace C_CodingQuestions
             Console.WriteLine("The angle between hour hand and minute hand is {0} degrees", diff);
         }
 
-        // Recursive function c# example
+        // Q.17: Recursive function c# example
 
         public static double Factorial(int number)
         {
@@ -408,6 +409,23 @@ namespace C_CodingQuestions
                 return 1;
 
             return number * Factorial(number - 1);
+        }
+
+
+        //Q.18: Real time example of recursion c#
+
+        private static void FindFiles(string path)
+        {
+            foreach(string fileName in Directory.GetFiles(path))
+            {
+                Console.WriteLine(fileName);
+            }
+
+            foreach(string directory in Directory.GetDirectories(path))
+            {
+                //Notice that FindFiles() is calling itself.
+                FindFiles(directory);
+            }
         }
     }
 }

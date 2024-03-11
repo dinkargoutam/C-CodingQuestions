@@ -1,0 +1,7 @@
+D:\MyData\Projects\Git\C-CodingQuestions\C-CodingQuestions\obj\Debug\C#CodingQuestions.csproj.AssemblyReference.cache
+D:\MyData\Projects\Git\C-CodingQuestions\C-CodingQuestions\obj\Debug\C#CodingQuestions.csproj.CoreCompileInputs.cache
+D:\MyData\Projects\Git\C-CodingQuestions\C-CodingQuestions\bin\Debug\C#CodingQuestions.exe.config
+D:\MyData\Projects\Git\C-CodingQuestions\C-CodingQuestions\bin\Debug\C#CodingQuestions.exe
+D:\MyData\Projects\Git\C-CodingQuestions\C-CodingQuestions\bin\Debug\C#CodingQuestions.pdb
+D:\MyData\Projects\Git\C-CodingQuestions\C-CodingQuestions\obj\Debug\C#CodingQuestions.exe
+D:\MyData\Projects\Git\C-CodingQuestions\C-CodingQuestions\obj\Debug\C#CodingQuestions.pdb
