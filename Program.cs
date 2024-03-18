@@ -13,6 +13,8 @@ namespace C_CodingQuestions
         {
             int[,] arr = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
             MultiToSingle(arr);
+            Console.WriteLine("----------------");
+            ReverseEachWord("");
             Console.ReadLine();
         }
 
@@ -426,6 +428,16 @@ namespace C_CodingQuestions
                 //Notice that FindFiles() is calling itself.
                 FindFiles(directory);
             }
+        }
+
+        //Q.19: Reverse each word in a string using c#
+        public static void ReverseEachWord(string word)
+        {
+            word = "one two three four five";
+
+            string result = string.Join(" ", word.Split(' ').Select(x => new String(x.Reverse().ToArray())));
+
+            Console.WriteLine(result);
         }
     }
 }
